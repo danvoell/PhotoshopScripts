@@ -1,1 +1,3 @@
-# PhotoshopScripts
+# PhotoshopScripts is a place for photoshop automation scripts. I own a small printing business and these are mostly pre-press automation scripts. 
+
+magic.jsx - The goal of this automation script is to create bleed for an image/pdf/illustration so that you can cut into the bleed in the final step after printing. This file converts a pdf to CMYK and 300 dpi. It then adds .25 inches around the outside of the file. Then flattens the image. Then runs a photoshop action called magic1. **PLEASE NOTE:** You must create the action in your own Photoshop. To create the action go to window->actions then click new and name it magic1. The steps are click in the newly formed image white space. Click delete. then "choose content" aware under the fill menu. That's it. If you have questions or want a different type of scrpt email dan@midwestlabelsupply.com  
